@@ -1,0 +1,132 @@
+
+*{
+    margin : 0;
+    padding : O;
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+
+nav{
+    background-color: orange;
+}
+
+.banner-image{
+    background-image: url(images/headerback.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+background-attachment:fixed;
+background-position: center;
+}
+
+
+h1{
+    color: orange;
+    text-align: center;
+    padding:40px;
+}
+.n{
+    text-align: center;
+}
+
+
+#team p{
+    background-color:orange;
+    border-bottom-left-radius:200px 30px; 
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+
+
+}
+
+#team .card{
+    border: none;
+
+}
+
+#formulaire h1{
+    color: orange;
+    text-align: center;
+    padding:40px;
+}
+
+.right{
+  
+    text-align: right;
+}
+.left{
+    text-align: left;
+    border-left: 2px solid green;
+}
+
+#formulaire{
+margin-top: 30px;
+border-top: 1x solid rgb(80, 80, 80);
+
+}
+#formulaire .cent{
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+
+}
+#blog .ft{
+    border: 1px solid;
+    background-color:gainsboro;
+    border-color: gainsboro;
+    padding: 18px;
+    
+    /* border-bottom-left-radius: 20px; */
+}
+#portfolio{
+    align-items: center;
+    text-align: center;
+}
+#portfolio .card img{
+    width: 350px;
+    height: 400px;
+
+}
+#portfolio .card{
+    border: none;
+    padding: 10px;
+
+}
+
+#blog .card img{
+    width: 350px;
+    height: 400px;
+ 
+}
+
+
+#about .card img{
+    /* width: 300px;
+    height: 300px; */
+    border-radius: 100px;
+
+}
+#about .card{
+    border: none;
+}
+/* 
+#blog .card{
+    /* border: none; 
+} */
+
+nav{
+    background-color: orange;
+}
+
+p.or{
+    color: orange;
+    font-size: 35px;
+}
+
+#formulaire button{
+    background-color: orange;
+    color: white;
+}
